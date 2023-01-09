@@ -23,7 +23,8 @@ This program address the main five points of the task however the finial 'Bonus 
 
 ### What has been produced
 
-* The first and second tasks are fullfilled by using the `getData` function which has parameters of endpoint and schema which can be found in the `/src/api.ts` file
+* The first task is fullfilled by using the `getOutages` function which quite simply gets the outages from the outage endpoint in the `/src/api.ts` file
+* The second task uses the `getSiteInfo` function feeding in the parameters of endpoint and schema (also in `/src/api.ts`)
 * The third and fourth task is done in the `filterAndAttachOutageData` function in the `/src/filterData.ts` file. First the outages which began before the spesified date is filtered out, then the data is again removing any entries without an ID and then finially the remaining outages have the name of the device mapped to each appropriate outage
 * The last task is compleated using the  `sendData` function with the parameters of the `siteID` and the filtered data from the third and fourth task.
 
