@@ -34,7 +34,11 @@ This program address the main five points of the task however the finial 'Bonus 
 ```bash
 npm install
 ```
-2. To run the unit tests run the folowing:
+2. Run the program:
+```bash
+npm run start
+```
+3. To run the unit tests run the folowing:
 ```bash
 npm test
 ```
